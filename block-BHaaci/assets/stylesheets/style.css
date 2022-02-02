@@ -131,10 +131,10 @@ justify-content: space-between;
 align-items: center;
 }
 .col-1{
-width: 40%;
+width: 48%;
 }
 .col-1 h1{
-	font-size: 45px;
+	font-size: 56px;
     color: #fff;
     font-weight: 700;
 	margin-bottom: 24px;
@@ -142,9 +142,10 @@ width: 40%;
 .col-1 p{
 	color: #f4f0f0;
 	font-weight: 400;
+	font-size: 18px;
 }
 .col-2{
-width: 45%;
+width: 48%;
 }
 .tryfree-7days{
 	background-color: #5D54A3;
