@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/6ad3ed723e.js" crossorigin="anonymous"></script>
+    <!--  FONT-FAMILY POPPINS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?
+            family=Poppins:wght@100;200;300;400;500;600;700;
+            800;900&display=swap" rel="stylesheet">
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <title>Assignment 2 - Building HTML Forms</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class=" header-container flex">
+            <a href="index.html" class="brand flex-inline">
+                <img src="assets/media/logo.png" alt=" logo">
+                <strong>JOURNEY</strong>
+            </a>
+            <nav class="header-nav">
+                <ul class="flex">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Top Destinations</a></li>
+                    <li><a href="#">Recommended Places</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- hero section  -->
+        <section class="hero-section container">
+            <div class="hero-content">
+                <h1>LET'S BEGIN</h1>
+                <img src="assets/media/dots-3.png" alt="dot3">
+                <p>We assist you choose the best</p>
+                <div class="hero-btn">
+                    <a href="#">
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- form  -->
+            <form action="#" class="flex form">
+                <fieldset class="flex-48 destination">
+                    <div>
+                        <label for="destination">
+                            Choose Your Destination
+                        </label> <br>
+                        <input type="text" id="destination" placeholder="Type your destination...">
+
+                    </div>
+                    <div class="flex">
+                        <div class="flex-48">
+                            <label for="checkin">Check In Date</label><br>
+                            <input class="date" type="date" id="checkin" placeholder="Check In">
+                        </div>
+                        <div class="flex-48">
+                            <label for="checkout">Check Out Date</label><br>
+                            <input class="date" type="date" id="checkout" placeholder="Check Out">
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="flex-48 align-self">
+                    <div class="flex rooms">
+                        <div class="flex-48">
+                            <label for="rooms">How Many Rooms?</label>
+                            <br>
+                            <select name="rooms" id="rooms">
+                                <option value="1"> 1 Room</option>
+                                <option value="2"> 2 Room</option>
+                                <option value="3"> 3 Room</option>
+                                <option value="4"> 4 Room</option>
+                            </select>
+                        </div>
+                        <div class="flex-24">
+                            <label for="adult">Adult</label>
+                            <br>
+                            <select name="adult" id="adult">
+                                <option value="1"> 1 </option>
+                                <option value="2"> 2 </option>
+                                <option value="3"> 3 </option>
+                                <option value="4"> 4 </option>
+                            </select>
+                        </div>
+                        <div class="flex-24">
+                            <label for="child">Child</label>
+                            <br>
+                            <select name="child" id="child">
+                                <option value="1"> 1</option>
+                                <option value="2"> 2</option>
+                                <option value="3"> 3</option>
+                                <option value="4"> 4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input type="submit" value="Check Availiability" class="btn submit">
+                </fieldset>
+            </form>
+        </section>
+        <!-- journey section  -->
+        <section class="journey container">
+            <div class="journey-container">
+                <h2>YOUR <strong>JOURNEY</strong> IS OUR PRIORITY</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                    inventore possimus tempora ipsam omnis iure adipisci harum molestiae
+                    sequi officia architecto obcaecati, ratione autem excepturi
+                    reprehenderit nemo voluptas.
+                </p>
+                <a href="#" class="btn btn-primary">CONTINUE EXPLORE</a>
+            </div>
+        </section>
+        <!-- top visited places  -->
+        <section class="top-destination">
+            <div class="container destination-container">
+                <div class="col col1">
+                    <div class="flex">
+                        <figure class="img">
+                            <img src="assets/media/tm-img-01.jpg" alt="">
+                        </figure>
+                        <div class="blank"></div>
+                    </div>
+                    <article class="article1">
+                        <div class="article-content">
+                            <h2>Europe's most visited places</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                                dolorum obcaecati, suscipit eligendi ipsum enim eum doloremque
+                                iure molestiae explicabo sapiente harum voluptatem !
+                            </p>
+                            <a href="#" class="btn btn-secondary">CONTINUE READING</a>
+                        </div>
+                        <div class="btn-slider">
+                            <span>
+                                <i class="fas fa-arrow-circle-left" aria-hidden="true"></i>
+                            </span>
+                            <span>
+                                <i class="fas fa-arrow-circle-right" aria-hidden="true""></i>
+                    </span>
+                </div>
+              </article>
+             </div>
+             <div class=" col col2">
+                                    <div class="flex">
+                                        <div class="blank"></div>
+                                        <figure class="img">
+                                            <img src="assets/media/tm-img-02.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                    <article class="article2">
+                                        <div class="article-content article2-bg">
+                                            <h2>Europe's most visited places</h2>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                                                dolorum obcaecati, suscipit eligendi ipsum enim eum doloremque
+                                                iure molestiae explicabo sapiente harum voluptatem !
+                                            </p>
+                                            <a href="#" class="btn btn-secondary">CONTINUE READING</a>
+                                        </div>
+                                        <div class="btn-slider-2">
+                                            <span>
+                                                <i class="fas fa-arrow-circle-left" aria-hidden="true"></i>
+                                            </span>
+                                            <span>
+                                                <i class="fas fa-arrow-circle-right" aria-hidden="true""></i>
+                </span>
+            </div>
+               
+             </article>
+            </div>
+            <div class=" col col1">
+                                                    <div class="flex">
+                                                        <figure class="img">
+                                                            <img src="assets/media/tm-img-03.jpg" alt="">
+                                                        </figure>
+                                                        <div class="blank"></div>
+                                                    </div>
+                                                    <article class="article1">
+                                                        <div class="article-content">
+                                                            <h2>Europe's most visited places</h2>
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                                Quod
+                                                                dolorum obcaecati, suscipit eligendi ipsum enim eum
+                                                                doloremque
+                                                                iure molestiae explicabo sapiente harum voluptatem !
+                                                            </p>
+                                                            <a href="#" class="btn btn-secondary">CONTINUE READING</a>
+                                                        </div>
+                                                        <div class="btn-slider">
+                                                            <span>
+                                                                <i class="fas fa-arrow-circle-left"
+                                                                    aria-hidden="true"></i>
+                                                            </span>
+                                                            <span>
+                                                                <i class="fas fa-arrow-circle-right" aria-hidden="true""></i>
+                   </span>
+               </div>
+             </article>
+            </div>
+         </div>
+        </section>
+        <!-- continet section  -->
+        <section class=" continent-section">
+                                                                    <div class="container map-container flex">
+                                                                        <div class="col-7">
+                                                                            <img src="assets/media/north-america.png"
+                                                                                alt="">
+                                                                            <p>NORTH AMERICA</p>
+                                                                        </div>
+                                                                        <div class="col-7">
+                                                                            <img src="assets/media/south-america.png"
+                                                                                alt="">
+                                                                            <p>SOUTH AMERICA</p>
+                                                                        </div>
+                                                                        <div class="col-7">
+                                                                            <img src="assets/media/europe.png" alt="">
+                                                                            <p>EUROPE</p>
+                                                                        </div>
+                                                                        <div class="col-7">
+                                                                            <img src="assets/media/asia.png" alt="">
+                                                                            <p>ASIA</p>
+                                                                        </div>
+                                                                        <div class="col-7">
+                                                                            <img src="assets/media/africa.png" alt="">
+                                                                            <p>AFRICA</p>
+                                                                        </div>
+                                                                        <div class="col-7">
+                                                                            <img src="assets/media/australia.png"
+                                                                                alt="">
+                                                                            <p>AUSTRALIA</p>
+                                                                        </div>
+                                                                        <div class="col-7">
+                                                                            <img src="assets/media/antartica.png"
+                                                                                alt="">
+                                                                            <p>ANTARCTICA</p>
+                                                                        </div>
+                                                                    </div>
+
+        </section>
+        <!-- top hotel  -->
+        <section class="container top-hotel-section">
+            <div class="top-hotel-container">
+                <div class="col-4-1 flex">
+                    <figure class="hotel-img">
+                        <img src="assets/media/tm-img-04.jpg" alt="">
+                    </figure>
+                    <div class="hotel-info">
+                        <h2>ASIA RESORT HOTEL</h2>
+                        <strong>Singapore</strong>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptas quisquam excepturi distinctio molestias fuga?
+                        </p>
+                    </div>
+                    <div class="rate flex">
+                        <img src="assets/media/button-curve.png" alt="">
+                        <div class="rate-info">
+                            <strong>$440</strong>
+                            <p>CONTINUE READING</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4-1 flex">
+                    <figure class="hotel-img">
+                        <img src="assets/media/tm-img-05.jpg" alt="">
+                    </figure>
+                    <div class="hotel-info">
+                        <h2>NULLAM NIST ELLAM</h2>
+                        <strong>Yagoon,Myanmar</strong>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptas quisquam excepturi distinctio molestias fuga?
+                        </p>
+                    </div>
+                    <div class="rate flex">
+                        <img src="assets/media/button-curve.png" alt="">
+                        <div class="rate-info">
+                            <strong>$450</strong>
+                            <p>CONTINUE READING</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4-1 flex">
+                    <figure class="hotel-img">
+                        <img src="assets/media/tm-img-06.jpg" alt="">
+                    </figure>
+                    <div class="hotel-info">
+                        <h2>PROIN INTERDUM ULLAM</h2>
+                        <strong>Bankok,Thailand</strong>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptas quisquam excepturi distinctio molestias fuga?
+                        </p>
+                    </div>
+                    <div class="rate flex">
+                        <img src="assets/media/button-curve.png" alt="">
+                        <div class="rate-info">
+                            <strong>$460</strong>
+                            <p>CONTINUE READING</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4-1 flex">
+                    <figure class="hotel-img">
+                        <img src="assets/media/tm-img-01.jpg" alt="">
+                    </figure>
+                    <div class="hotel-info">
+                        <h2>LOREM IPSUM</h2>
+                        <strong>Vientiane,Laos</strong>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptas quisquam excepturi distinctio molestias fuga?
+                        </p>
+                    </div>
+                    <div class="rate flex">
+                        <img src="assets/media/button-curve.png" alt="">
+                        <div class="rate-info">
+                            <strong>$470</strong>
+                            <p>CONTINUE READING</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-places">
+                <a href="#" class="btn btn-primary">SHOW MORE PLACES</a>
+            </div>
+        </section>
+        <!-- map  -->
+        <section class="map container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13503.545167005219!2d76.3554089!3d32.2072945!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1644676722462!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <form action="" class="map-form">
+             <fieldset>
+                 <div class="flex">
+                     <input class="input-field flex-48"type="text" name="name" placeholder="Name">
+                     <input class="input-field flex-48"type="text" name="Email" placeholder="Email">
+                 </div>
+                 <input class="input-field subject" type="text" name="subject" placeholder="Subject">
+                 <textarea name="message" class="input-field message" placeholder="Message" rows="10"></textarea>
+                 <input class="send-btn input-field"type="submit" value="SEND MESSAGE">
+             </fieldset>
+            </form>
+        </section>
+        <!-- footer  -->
+        <footer class="footer container">
+            <small>Copyright © Your Company Designed by Template Me</small>
+          </footer>
+
+
+</body>
+
+</html>
